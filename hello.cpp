@@ -12,7 +12,7 @@ void matchstring(string a,string b){
 	for(int i = 0;i<b.length();i++){
 		for(int j = 0;j<a.length();j++){
 			cout<<a[j];
-			delay(1);
+			delay(2);
 			cout<<"\b \b";
 			if(a[j]==b[i]){
 			cout<<a[j];
