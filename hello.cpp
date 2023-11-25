@@ -7,7 +7,7 @@ void delay(int a){
 		for (int c = 1; c <= 447365; c++){}
 	}
 }
-void s(string a,string b){
+void matchstring(string a,string b){
 	for(int i = 0;i<b.length();i++){
 		for(int j = 0;j<a.length();j++){
 			cout<<a[j];
@@ -33,10 +33,10 @@ int main(){
 	string a = " ~!@#$%^&*()_+QWERTYUIOP{}|\\ASDFGHJKL:\"ZXCVBNM<>?`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./";
 	string b = "Hello World ;)";
 	string c = "Hi Ayman :)";
-	s(a,b);
+	matchstring(a,b);
 	w();
 	cout<<"\t\t\t";
-	s(a,c);
+	matchstring(a,c);
 	getch();
 	return 0;
 }
