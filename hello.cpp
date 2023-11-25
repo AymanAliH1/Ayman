@@ -1,6 +1,7 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+string a = " ~!@#$%^&*()_+QWERTYUIOP{}|\\ASDFGHJKL:\"ZXCVBNM<>?`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./";
 void delay(int a){
 	++a;
 	while(--a){
@@ -30,7 +31,6 @@ void w(){
 	cout<<"\b\b  ";
 }
 int main(){
-	string a = " ~!@#$%^&*()_+QWERTYUIOP{}|\\ASDFGHJKL:\"ZXCVBNM<>?`1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm,./";
 	string b = "Hello World ;)";
 	string c = "Hi Ayman :)";
 	matchstring(a,b);
