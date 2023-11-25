@@ -20,7 +20,7 @@ void s(string a,string b){
 	}
 }
 void w(){
-	cout<<"\n..";
+	cout<<"\n . . ";
 	for(int i = 0;i<4;i++){
 		cout<<".";
 		delay(300);
