@@ -24,7 +24,7 @@ int main(){
 	string b = "Hello World ;)";
 	string c = "Hi Ayman :)";
 	matchstring(a,b);
-	cout<<"\t\t\t";
+	cout<<"\n";
 	matchstring(a,c);
 	getch();
 	return 0;
