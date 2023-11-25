@@ -20,21 +20,10 @@ void matchstring(string a,string b){
 		}
 	}
 }
-void w(){
-	cout<<"\n . . ";
-	for(int i = 0;i<4;i++){
-		cout<<".";
-		delay(300);
-		cout<<"\b \b";
-		delay(250);
-	}
-	cout<<"\b\b  ";
-}
 int main(){
 	string b = "Hello World ;)";
 	string c = "Hi Ayman :)";
 	matchstring(a,b);
-	w();
 	cout<<"\t\t\t";
 	matchstring(a,c);
 	getch();
